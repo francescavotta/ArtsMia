@@ -61,7 +61,6 @@ public class Model {
 				Graphs.addEdge(grafo, idMap.get(a.getId1()), idMap.get(a.getId2()), a.getPeso() );
 		}
 		
-		
 		System.out.println("Grafo creato");
 		System.out.println("# vertici "+ grafo.vertexSet().size());
 		System.out.println("# archi " + grafo.edgeSet().size());

@@ -13,6 +13,7 @@ public class Adiacenza {
 		this.id2 = id2;
 		this.peso = peso;
 	}
+	
 	public int getId1() {
 		return id1;
 	}
@@ -31,7 +32,4 @@ public class Adiacenza {
 	public void setPeso(Integer peso) {
 		this.peso = peso;
 	}
-	
-	
-
 }
